@@ -1,20 +1,19 @@
 [
   {
-    "sourceId": "retail-prices-demo-1",
-    "source": "sample-source",
-    "observedAt": "2026-11-16T09:00:00Z",
-    "label": "商品报价",
+    "sourceId": "A-1",
+    "source": "渠道价格采集目录",
+    "observedAt": "2026-11-16T08:00:00Z",
+    "label": "K1",
     "attributes": {
-      "sample": true
-    }
-  },
-  {
-    "sourceId": "retail-prices-demo-2",
-    "source": "sample-source",
-    "observedAt": "2026-11-16T09:05:00Z",
-    "label": "商品报价 2",
-    "attributes": {
-      "sample": true
+      "offerId": "A-1",
+      "shop": "a",
+      "sku": "K1",
+      "amount": "120.00",
+      "currency": "CNY",
+      "taxIncluded": true,
+      "shipping": "8.00",
+      "observedAt": "2026-11-16T08:00:00Z",
+      "ruleVersion": "tax-1"
     }
   }
 ]

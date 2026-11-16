@@ -1,0 +1,12 @@
+[
+  {
+    "version": "tax-1",
+    "effectiveFrom": "2026-01-01",
+    "taxRate": "0.06"
+  },
+  {
+    "version": "tax-2",
+    "effectiveFrom": "2026-11-16",
+    "taxRate": "0.09"
+  }
+]
