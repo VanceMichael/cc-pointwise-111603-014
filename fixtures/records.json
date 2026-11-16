@@ -1,0 +1,20 @@
+[
+  {
+    "sourceId": "retail-prices-demo-1",
+    "source": "sample-source",
+    "observedAt": "2026-11-16T09:00:00Z",
+    "label": "商品报价",
+    "attributes": {
+      "sample": true
+    }
+  },
+  {
+    "sourceId": "retail-prices-demo-2",
+    "source": "sample-source",
+    "observedAt": "2026-11-16T09:05:00Z",
+    "label": "商品报价 2",
+    "attributes": {
+      "sample": true
+    }
+  }
+]
