@@ -27,3 +27,14 @@ test('price source preserves unknown components rather than converting them to z
   assert.equal(changed.taxIncluded, null);
   assert.equal((await fixture('rules')).length, 2);
 });
+
+test('explicit zero shipping stays distinct from unknown shipping across offers', async () => {
+  const opening = await observe();
+  assert.equal(opening.records.length, 2);
+  const listed = opening.records[1].attributes;
+  assert.equal(listed.offerId, 'B-1');
+  assert.equal(listed.taxIncluded, false);
+  assert.equal(listed.shipping, '0.00', '来源明示的零运费是口径声明，不同于未知');
+  const changed = (await observe('updated')).records[1].attributes;
+  assert.equal(changed.shipping, null, '改版后来源不再明示运费');
+});

@@ -4,7 +4,7 @@
       "routes": {
         "/prices/shop-a": {
           "contentType": "text/html; charset=utf-8",
-          "body": "<!doctype html><html><body><script type=\"application/json\" class=\"source-record\">{\"offerId\": \"A-1\", \"shop\": \"a\", \"sku\": \"K1\", \"amount\": \"120.00\", \"currency\": \"CNY\", \"taxIncluded\": true, \"shipping\": \"8.00\", \"observedAt\": \"2026-11-16T08:00:00Z\", \"ruleVersion\": \"tax-1\"}</script></body></html>",
+          "body": "<!doctype html><html><body><script type=\"application/json\" class=\"source-record\">{\"offerId\": \"A-1\", \"shop\": \"a\", \"sku\": \"K1\", \"amount\": \"120.00\", \"currency\": \"CNY\", \"taxIncluded\": true, \"shipping\": \"8.00\", \"observedAt\": \"2026-11-16T08:00:00Z\", \"ruleVersion\": \"tax-1\"}</script><script type=\"application/json\" class=\"source-record\">{\"offerId\": \"B-1\", \"shop\": \"b\", \"sku\": \"K1\", \"amount\": \"115.00\", \"currency\": \"CNY\", \"taxIncluded\": false, \"shipping\": \"0.00\", \"observedAt\": \"2026-11-16T08:05:00Z\", \"ruleVersion\": \"tax-2\"}</script></body></html>",
           "etag": "\"opening\""
         }
       }
@@ -13,7 +13,7 @@
       "routes": {
         "/prices/shop-a": {
           "contentType": "text/html; charset=utf-8",
-          "body": "<!doctype html><html><body><script type=\"application/json\" class=\"source-record\">{\"offerId\": \"A-1\", \"shop\": \"a\", \"sku\": \"K1\", \"amount\": \"120.00\", \"currency\": \"CNY\", \"taxIncluded\": null, \"shipping\": null, \"observedAt\": \"2026-11-16T09:00:00Z\", \"ruleVersion\": \"tax-2\"}</script></body></html>",
+          "body": "<!doctype html><html><body><script type=\"application/json\" class=\"source-record\">{\"offerId\": \"A-1\", \"shop\": \"a\", \"sku\": \"K1\", \"amount\": \"120.00\", \"currency\": \"CNY\", \"taxIncluded\": null, \"shipping\": null, \"observedAt\": \"2026-11-16T09:00:00Z\", \"ruleVersion\": \"tax-2\"}</script><script type=\"application/json\" class=\"source-record\">{\"offerId\": \"B-1\", \"shop\": \"b\", \"sku\": \"K1\", \"amount\": \"112.00\", \"currency\": \"CNY\", \"taxIncluded\": false, \"shipping\": null, \"observedAt\": \"2026-11-16T09:05:00Z\", \"ruleVersion\": \"tax-2\"}</script></body></html>",
           "etag": "\"updated\""
         }
       }

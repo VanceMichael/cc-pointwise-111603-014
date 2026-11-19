@@ -15,5 +15,22 @@
       "observedAt": "2026-11-16T08:00:00Z",
       "ruleVersion": "tax-1"
     }
+  },
+  {
+    "sourceId": "B-1",
+    "source": "渠道价格采集目录",
+    "observedAt": "2026-11-16T08:05:00Z",
+    "label": "K1",
+    "attributes": {
+      "offerId": "B-1",
+      "shop": "b",
+      "sku": "K1",
+      "amount": "115.00",
+      "currency": "CNY",
+      "taxIncluded": false,
+      "shipping": "0.00",
+      "observedAt": "2026-11-16T08:05:00Z",
+      "ruleVersion": "tax-2"
+    }
   }
 ]
